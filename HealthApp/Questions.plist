@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>heading</key>
+		<string>Medication Usage</string>
+		<key>title</key>
+		<string>How many of the past 7 days did you:</string>
+		<key>options</key>
+		<string>days</string>
+		<key>questions</key>
+		<array>
+			<string>Take your blood pressure pills?</string>
+			<string>Take your blood pressure pills at the same time everyday?</string>
+			<string>Take the recommended number of blood pressure pills?</string>
+		</array>
+		<key>questionsId</key>
+		<array>
+			<integer>1</integer>
+			<integer>2</integer>
+			<integer>3</integer>
+		</array>
+		<key>subQuestions</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>options</key>
+		<string>days</string>
+		<key>questions</key>
+		<array>
+			<string>Eat nuts or peanut butter?</string>
+			<string>Eat beans, peas, or lentils?</string>
+			<string>Eat eggs?</string>
+			<string>Eat pickles, olives, or other vegetables in brine?</string>
+			<string>Eat five or more servings of fruits and vegetables?</string>
+			<string>Eat more than one serving of fruit (fresh, frozen, canned or fruit juice)?</string>
+			<string>Eat more than one serving of vegetables?</string>
+		</array>
+		<key>questionsId</key>
+		<array>
+			<integer>4</integer>
+			<integer>5</integer>
+			<integer>6</integer>
+			<integer>7</integer>
+			<integer>8</integer>
+			<integer>9</integer>
+			<integer>10</integer>
+		</array>
+		<key>subQuestions</key>
+		<true/>
+		<key>heading</key>
+		<string>Diet</string>
+		<key>title</key>
+		<string>How many of the past 7 days did you:</string>
+	</dict>
+	<dict>
+		<key>subQuestions</key>
+		<false/>
+		<key>options</key>
+		<string>days</string>
+		<key>questions</key>
+		<array>
+			<string>Drink milk (in a glass, with cereal, or in coffee, tea or cocoa)?</string>
+			<string> Eat broccoli, collard greens, spinach, potatoes, squash or sweet potatoes?</string>
+			<string>Eat apples, bananas, oranges, melon or raisins?</string>
+			<string> Eat whole grain breads, cereals, grits, oatmeal or brown rice?</string>
+		</array>
+		<key>questionsId</key>
+		<array>
+			<integer>11</integer>
+			<integer>12</integer>
+			<integer>13</integer>
+			<integer>14</integer>
+		</array>
+		<key>title</key>
+		<string>How many of the past 7 days did you:</string>
+		<key>heading</key>
+		<string>Diet</string>
+	</dict>
+	<dict>
+		<key>subQuestions</key>
+		<false/>
+		<key>questions</key>
+		<array>
+			<string>Do at least 30 minutes total of physical activity?</string>
+			<string>Do a specific exercise activity (such as swimming, walking, or biking) other than what you do around the house or as part of your work?</string>
+			<string> Engage in weight lifting or strength training (other than what you do around the house or as part of your work)?</string>
+			<string>Do any repeated heavy lifting or pushing/pulling of heavy items either for your job or around the house or garden?</string>
+		</array>
+		<key>questionsId</key>
+		<array>
+			<integer>15</integer>
+			<integer>16</integer>
+			<integer>17</integer>
+			<integer>18</integer>
+		</array>
+		<key>options</key>
+		<string>days</string>
+		<key>heading</key>
+		<string>Physical Activity</string>
+		<key>title</key>
+		<string>How many of the past 7 days did you:</string>
+	</dict>
+	<dict>
+		<key>subQuestions</key>
+		<false/>
+		<key>questions</key>
+		<array>
+			<string>Smoke a cigarette or cigar, even just one puff?</string>
+			<string>Stay in a room or ride in an enclosed vehicle while someone was smoking?</string>
+		</array>
+		<key>questionsId</key>
+		<array>
+			<integer>19</integer>
+			<integer>20</integer>
+		</array>
+		<key>options</key>
+		<string>days</string>
+		<key>heading</key>
+		<string>Smoking</string>
+		<key>title</key>
+		<string>How many of the past 7 days did you:</string>
+	</dict>
+	<dict>
+		<key>options</key>
+		<string>agree</string>
+		<key>heading</key>
+		<string>Weight Management</string>
+		<key>title</key>
+		<string>In order to lose weight or maintain my weight…</string>
+		<key>questions</key>
+		<array>
+			<string>I am careful about what I eat.</string>
+			<string>I read food labels when I grocery shop.</string>
+			<string>I exercise in order to lose or maintain weight.</string>
+			<string>I have cut out drinking sugary sodas and sweet tea.</string>
+			<string>I eat smaller portions or eat fewer portions.</string>
+			<string>I have stopped buying or bringing unhealthy foods into my home.</string>
+			<string>I have cut out or limit some foods that I like but that are not good for me.</string>
+			<string>I eat at restaurants or fast food places less often.</string>
+			<string>I substitute healthier foods for things that I used to eat.</string>
+			<string>I have modified my recipes when I cook.</string>
+		</array>
+		<key>questionsId</key>
+		<array>
+			<integer>21</integer>
+			<integer>22</integer>
+			<integer>23</integer>
+			<integer>24</integer>
+			<integer>25</integer>
+			<integer>26</integer>
+			<integer>27</integer>
+			<integer>28</integer>
+			<integer>29</integer>
+			<integer>30</integer>
+		</array>
+	</dict>
+	<dict>
+		<key>heading</key>
+		<string>The next three questions are about alcohol consumption. A drink of alcohol is defined as:</string>
+		<key>title</key>
+		<string>One, 12 oz. can or bottle of beer;
+One, 4 ounce glass of wine;
+One, 12 oz. can or bottle of wine cooler;
+One mixed drink or cocktail;
+Or 1 shot of hard liquor.</string>
+		<key>options</key>
+		<string>numbers</string>
+		<key>questions</key>
+		<array>
+			<string> On average, how many days per week?
+do you drink alcohol?</string>
+			<string> On a typical day that you drink alcohol, how many drinks do you have?</string>
+			<string>What is the largest number of drinks that you’ve had on any given day within the last month?</string>
+		</array>
+		<key>questionsId</key>
+		<array>
+			<integer>31</integer>
+			<integer>32</integer>
+			<integer>33</integer>
+		</array>
+	</dict>
+</array>
+</plist>

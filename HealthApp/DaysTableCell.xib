@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="130" id="KGk-i7-Jjw" customClass="DaysTableCell" customModule="HealthApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="366" height="129"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAC-3y-8HI" customClass="QuestionLabel" customModule="HealthApp" customModuleProvider="target">
+                        <color key="backgroundColor" red="0.30441042820000003" green="0.3179775916" blue="0.64399417280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="qau-ui-leU">
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xu8-0E-pG6" customClass="DaysButton" customModule="HealthApp" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="dXA-Oo-6it"/>
+                                </constraints>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" red="0.30441042820000003" green="0.3179775916" blue="0.64399417280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4M0-zF-uOX" customClass="DaysButton" customModule="HealthApp" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.92141426280000005" green="0.92141426280000005" blue="0.92141426280000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Hpm-6F-ssP"/>
+                                </constraints>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" red="0.30441042820000003" green="0.3179775916" blue="0.64399417280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMT-5b-dqc" customClass="DaysButton" customModule="HealthApp" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.92141426280000005" green="0.92141426280000005" blue="0.92141426280000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Te0-m7-B2Q"/>
+                                </constraints>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" red="0.30441042820000003" green="0.3179775916" blue="0.64399417280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Cl-JV-JQa" customClass="DaysButton" customModule="HealthApp" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.92141426280000005" green="0.92141426280000005" blue="0.92141426280000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="fbx-Kq-Qgi"/>
+                                </constraints>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" red="0.30441042820000003" green="0.3179775916" blue="0.64399417280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsF-Hy-aK3" customClass="DaysButton" customModule="HealthApp" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.92141426280000005" green="0.92141426280000005" blue="0.92141426280000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="buw-eB-7nP"/>
+                                </constraints>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" red="0.30441042820000003" green="0.3179775916" blue="0.64399417280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIW-nh-f1E" customClass="DaysButton" customModule="HealthApp" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.92141426280000005" green="0.92141426280000005" blue="0.92141426280000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="LXC-OE-luc"/>
+                                </constraints>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" red="0.30441042820000003" green="0.3179775916" blue="0.64399417280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jX-75-9Wb" customClass="DaysButton" customModule="HealthApp" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.92141426280000005" green="0.92141426280000005" blue="0.92141426280000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="ZCZ-YE-jCU"/>
+                                </constraints>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" red="0.3921568627" green="0.41568627450000001" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y61-KA-l6F" customClass="DaysButton" customModule="HealthApp" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.92141426280000005" green="0.92141426280000005" blue="0.92141426280000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="K77-PT-xT1"/>
+                                </constraints>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" red="0.3921568627" green="0.41568627450000001" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="l4A-OA-bqU"/>
+                        </constraints>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="60I-Ne-GGl">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I have not been prescribed blood pressure pills." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="WYf-K3-rqI">
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="0.30441042820000003" green="0.3179775916" blue="0.64399417280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vo0-C2-WDZ">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="Aef-nC-tJx"/>
+                                    <constraint firstAttribute="height" constant="25" id="dLe-kL-371"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96167164459999999" green="0.9617081448" blue="0.96134541019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="WYf-K3-rqI" firstAttribute="leading" secondItem="Vo0-C2-WDZ" secondAttribute="trailing" constant="5" id="RZU-aB-P55"/>
+                            <constraint firstItem="Vo0-C2-WDZ" firstAttribute="top" secondItem="60I-Ne-GGl" secondAttribute="top" constant="3" id="TRY-KS-uBl"/>
+                            <constraint firstItem="WYf-K3-rqI" firstAttribute="top" secondItem="60I-Ne-GGl" secondAttribute="top" constant="5" id="c8P-B6-7gt"/>
+                            <constraint firstAttribute="bottom" secondItem="WYf-K3-rqI" secondAttribute="bottom" constant="5" id="kzL-nK-etp"/>
+                            <constraint firstItem="Vo0-C2-WDZ" firstAttribute="leading" secondItem="60I-Ne-GGl" secondAttribute="leading" constant="8" id="mEA-cH-7dd"/>
+                            <constraint firstAttribute="trailing" secondItem="WYf-K3-rqI" secondAttribute="trailing" constant="5" id="nKP-EQ-j2O"/>
+                            <constraint firstItem="Vo0-C2-WDZ" firstAttribute="centerY" secondItem="60I-Ne-GGl" secondAttribute="centerY" id="pHK-xV-huM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="60I-Ne-GGl" secondAttribute="bottom" constant="8" id="11J-CI-WLi"/>
+                    <constraint firstItem="60I-Ne-GGl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="1CB-tY-9L1"/>
+                    <constraint firstItem="qau-ui-leU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="FQh-9f-aBi"/>
+                    <constraint firstItem="60I-Ne-GGl" firstAttribute="top" secondItem="qau-ui-leU" secondAttribute="bottom" constant="5" id="OFI-4Z-OG7"/>
+                    <constraint firstItem="HAC-3y-8HI" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="RQl-99-EU7"/>
+                    <constraint firstAttribute="trailing" secondItem="60I-Ne-GGl" secondAttribute="trailing" constant="8" id="ReK-P8-Z6n"/>
+                    <constraint firstAttribute="trailing" secondItem="qau-ui-leU" secondAttribute="trailing" constant="8" id="cRu-6e-JDv"/>
+                    <constraint firstItem="HAC-3y-8HI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="eIm-lQ-156"/>
+                    <constraint firstItem="qau-ui-leU" firstAttribute="top" secondItem="HAC-3y-8HI" secondAttribute="bottom" constant="10" id="n7c-hu-WKV"/>
+                    <constraint firstItem="HAC-3y-8HI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="t37-Pc-azL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="buttonFive" destination="gIW-nh-f1E" id="hij-Qi-L9b"/>
+                <outlet property="buttonFour" destination="xsF-Hy-aK3" id="7ve-oU-SOb"/>
+                <outlet property="buttonOne" destination="4M0-zF-uOX" id="2eV-E3-QCB"/>
+                <outlet property="buttonSeven" destination="Y61-KA-l6F" id="3to-CM-Qlb"/>
+                <outlet property="buttonSix" destination="4jX-75-9Wb" id="pTu-rA-fa1"/>
+                <outlet property="buttonThree" destination="4Cl-JV-JQa" id="671-dQ-9Cv"/>
+                <outlet property="buttonTwo" destination="vMT-5b-dqc" id="1iz-Ya-nKd"/>
+                <outlet property="buttonZero" destination="xu8-0E-pG6" id="bEJ-hq-4WN"/>
+                <outlet property="checkBoxButton" destination="Vo0-C2-WDZ" id="PT0-vA-Hpo"/>
+                <outlet property="questionLabel" destination="HAC-3y-8HI" id="UBb-Fk-4P6"/>
+                <outlet property="subQuestionLabel" destination="WYf-K3-rqI" id="fyG-Af-DPu"/>
+                <outlet property="subQuestionView" destination="60I-Ne-GGl" id="Q5G-Jm-U8S"/>
+                <outletCollection property="dayButtons" destination="Y61-KA-l6F" collectionClass="NSMutableArray" id="CeR-aL-W5e"/>
+                <outletCollection property="dayButtons" destination="4jX-75-9Wb" collectionClass="NSMutableArray" id="tA8-vf-I2m"/>
+                <outletCollection property="dayButtons" destination="gIW-nh-f1E" collectionClass="NSMutableArray" id="zef-zY-MH5"/>
+                <outletCollection property="dayButtons" destination="xsF-Hy-aK3" collectionClass="NSMutableArray" id="vVo-CB-I4N"/>
+                <outletCollection property="dayButtons" destination="vMT-5b-dqc" collectionClass="NSMutableArray" id="kcw-rh-F2L"/>
+                <outletCollection property="dayButtons" destination="4M0-zF-uOX" collectionClass="NSMutableArray" id="xao-cu-MA1"/>
+                <outletCollection property="dayButtons" destination="xu8-0E-pG6" collectionClass="NSMutableArray" id="X1e-Ab-TWr"/>
+                <outletCollection property="dayButtons" destination="4Cl-JV-JQa" collectionClass="NSMutableArray" id="xxE-LW-sd7"/>
+            </connections>
+            <point key="canvasLocation" x="68" y="97"/>
+        </tableViewCell>
+    </objects>
+</document>
